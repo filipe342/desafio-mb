@@ -1,0 +1,63 @@
+[
+  {
+    "description": "  Para encontrar produtos que desejo comprar\n  Como um cliente do site\n  Eu quero buscar por produtos",
+    "keyword": "Funcionalidade",
+    "name": "Busca de Produto",
+    "line": 3,
+    "id": "busca-de-produto",
+    "tags": [],
+    "uri": "BuscaProduto.feature",
+    "elements": [
+      {
+        "id": "busca-de-produto;buscar-por-um-produto-específico",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Buscar por um Produto Específico",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que estou na página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 2090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "eu digito o nome de um produto na barra de busca",
+            "result": {
+              "status": "passed",
+              "duration": 864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "clico no botão de buscar",
+            "result": {
+              "status": "passed",
+              "duration": 2326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "uma lista de produtos relacionados ao termo buscado é exibida",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

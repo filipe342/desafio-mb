@@ -1,0 +1,63 @@
+[
+  {
+    "description": "  Para comprar produtos no site\n  Como um cliente\n  Eu quero adicionar produtos ao meu carrinho de compras",
+    "keyword": "Funcionalidade",
+    "name": "Adicionar Produto ao Carrinho",
+    "line": 3,
+    "id": "adicionar-produto-ao-carrinho",
+    "tags": [],
+    "uri": "AdicionarProdutoCarrinho.feature",
+    "elements": [
+      {
+        "id": "adicionar-produto-ao-carrinho;adicionar-um-produto-ao-carrinho-com-sucesso",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Adicionar um Produto ao Carrinho com Sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que encontrei um produto que desejo comprar",
+            "result": {
+              "status": "passed",
+              "duration": 5118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "eu clico no botão de Adicionar ao Carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 6100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "o produto é adicionado ao meu carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "vejo uma mensagem confirmando a adição",
+            "result": {
+              "status": "passed",
+              "duration": 1554000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
